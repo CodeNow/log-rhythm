@@ -13,7 +13,7 @@ fi
 NUM_LINES="$2"
 
 for LINE in `seq 1 $NUM_LINES`; do
-  echo `base64 /dev/urandom | head -c $LINE_SIZE_IN_BYTES`;
+  echo `base64 /dev/urandom | head -c $LINE_SIZE_IN_BYTES`
 done
 
 echo ENDRunnableTestEND
